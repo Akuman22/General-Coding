@@ -1,4 +1,5 @@
-/*Given an initial number, reverse it and add it back to the initial.
+/*
+ * Given an initial number, reverse it and add it back to the initial.
  * Check if new number is a palindrome.
  * If not repeat till is.
  * If yes display how many iterations it took and the number.
@@ -10,7 +11,7 @@ using namespace std;
 
 // Function to check for Number Palindromes
 void palindrome(vector<int> numbers, int rep){
-    if(numbers.size() == 0)return;              // empty number
+    if(numbers.size() == 0)return;              // Empty number
     if (rep>=1000){                             // If reps have gone beyond 1000, assume no palindrome
         cout << "No Palindrome"<<endl;
         return;
